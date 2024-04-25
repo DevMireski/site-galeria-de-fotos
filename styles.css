@@ -44,8 +44,8 @@ header {
 }
 
 li .a-item:hover {
-    font-size: 17px;
     transition: .4s;
+    border-bottom: 2px solid var(--branco);
 }
 
 .button-item {
@@ -177,14 +177,17 @@ footer {
     justify-content: center;
 }
 
-.content-img li {
+.content-img a {
     padding: 10px;
-    list-style: none;
     border: 1px solid var(--preto);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content-img li {
+    list-style: none;
 }
 
 .content-img li:hover {
@@ -229,6 +232,7 @@ footer {
 
     .navbar {
         position: absolute;
+        padding-top: 60px;
         z-index: 500;
         top: 0;
         left: 0;
